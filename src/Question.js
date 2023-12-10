@@ -15,7 +15,7 @@ const questions = [
   },
   {
     text: "I'm a path in the digital space, not made of bricks or covered in lace. Alter me right, solve the mystery in sight, change the question to answer, to unveil the grace. What am I?",
-    answer: "answer" || "Answer",
+    answer: ";ofdauovh aodoviedjvdsavonds vdfvdnvdnapvojdapfvo",
     src: "https://i.pinimg.com/originals/5f/16/09/5f1609b4b3e31e5f89841c7ee1142d0e.gif",
   },
 ];
