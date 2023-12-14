@@ -23,7 +23,7 @@ const questions = [
 const Question = ({ match }) => {
   const { id } = useParams();
   const question = questions[id - 1];
-  const [userAnswer, setUserAnswer] = useState('');
+  const [userAnswer, setUserAnswer] = useState("");
   const navigate = useNavigate();
 
   const handleAnswerSubmit = () => {

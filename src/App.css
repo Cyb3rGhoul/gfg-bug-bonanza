@@ -70,7 +70,7 @@ a:hover {
   text-decoration: underline;
 }
 @media (max-width: 600px) {
-  .question-box {
+  .question-box, .ans-box {
     position: absolute;
     top: 17rem;
     max-width: 90%;
