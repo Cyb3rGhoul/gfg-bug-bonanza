@@ -34,7 +34,13 @@ const Answer = ({ match }) => {
         </p>
       ) : (
         <p>
-          Go Back from Where you Have started. <br />
+          Where the echo of bouncing spheres meets the halls of thought,
+          <br /> A lion's gaze, multidisciplinary wisdom sought. <br /> In the
+          nexus of structures and legal creed, <br /> This feline guardian
+          stands, where paths of knowledge feed. <br /> <br /> Not a stone's
+          throw from where basketball dreams take flight, <br /> Navigate wisely to unlock the statue's insight. <br /> A convergence
+          of laws, designs, and scholarly might, Decipher the riddle, unveil the
+          king's site.
         </p>
       )}
       {id < 3 && (
@@ -42,13 +48,14 @@ const Answer = ({ match }) => {
       )}
       {id >= 3 && (
         <p>
-          Here is your personalized code: <span>{randomNumber}</span>
+          Note is your personalized code: <span>{randomNumber}</span>
         </p>
       )}
-      <div className="imgbox">
+      <div className="imgbox answerimg">
         <img
           src="https://media.tenor.com/CBOjsCUCFOUAAAAM/jhonny-sins-reyiz-wink.gif"
           alt="gif"
+          width={145}
         ></img>
       </div>
     </div>

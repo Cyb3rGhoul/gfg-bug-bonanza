@@ -84,4 +84,7 @@ a:hover {
   input {
     margin-bottom: 10px;
   }
+  .ans-box .answerimg{
+    width: 5rem;
+  }
 }
